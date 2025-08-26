@@ -17,7 +17,7 @@ function run() {
   // Add, remove, toggle, replace
   text.classList.add('dark');
   text.classList.remove('card');
-  text.classList.toggle('hidden');
+  text.classList.toggle('hidden'); // once it will add and again you click it will remove
   text.classList.replace('card', 'dark');
 
   // style property - Add styles to elements
